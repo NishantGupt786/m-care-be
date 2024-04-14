@@ -25,7 +25,7 @@ const forumController = {
             const imageKey = `forum_images/${Date.now().toString()}_image.${fileExtension}`;
     
             const params = {
-                Bucket: 'slightestscam',
+                Bucket: 'm-care',
                 Key: imageKey,
                 Body: imageBuffer,
                 ACL: 'public-read',

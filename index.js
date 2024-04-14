@@ -32,6 +32,6 @@ app.get("/ping", (_, res) => {
 app.use(authRoute);
 app.use(forumRoute);
 
-app.listen(8080, () => {
-  console.log("Server started at port: 8080");
+app.listen(5000, () => {
+  console.log("Server started at port: 6000");
 });
